@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Farro&display=swap');
+body {
+    background: #E5E5E5 !important;
+}
+
+nav {
+    background: #fff !important;
+}
+
+.navbar-brand {
+    margin-left: 150px;
+    font-family: Farro;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 40px;
+    color: #13188C;
+}
+
+.navbar-toggler {
+    background-color: #13188C;
+}
+
+.search {
+    padding-left: 150px;
+}
+
+.searchbar {
+    width: 20rem;
+    border-radius: 60px;
+}
+
+.user {
+    margin-top: 15px;
+    margin-left: 540px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.user-img {
+    margin-right: 50px;
+    width: 30px;
+    height: 30px;
+    border-radius: 60px;
+}
+
+/* sidebar */
+
+.sidebar {
+    height: 155h;
+}
+
+/*main body*/
+
+.main {
+    margin-top: -4000px;
+}
+
+.btn {
+    border-radius: 60px !important;
+    margin-right: 30px;
+}
+
+.lh-100 {
+    display: inline-block;
+    padding: 0px 5px;
+    font-size: 100%;
+}
+
+.l2-100 {
+    padding-right: 200px;
+}
+
+/* card */
+
+span {
+    font-size: 15px;
+}
+
+.box {
+    padding: 60px 0px;
+}
+
+.box-part {
+    background: #FFF;
+    border-radius: 0;
+    padding: 60px 10px;
+    margin: 30px 0px;
+}
+
+.text {
+    margin: 20px 0px;
+}
+
+.fa {
+    color: #4183D7;
+}
+
+.on-going {
+    float: right;
+    font-weight: bold;
+}
+
+.completed {
+    float: right;
+    color: rgb(17, 243, 17);
+    font-weight: bold;
+}
+
+.in-active {
+    font-weight: bold;
+    float: right;
+    color: red;
+}
+
+.on-going-circle {
+    color: blue;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.completed-circle {
+    padding-right: 15px;
+    color: rgb(17, 243, 17);
+    font-weight: bold;
+}
+
+.in-active-circle {
+    padding-right: 15px;
+    color: red;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+    l2-100 {
+        padding-right: 0px;
+    }
+    .lh-100 {
+        display: block;
+        padding: 0px 5px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 668px) {
+    l2-100 {
+        padding-right: 0px;
+    }
+    .lh-100 {
+        display: block;
+        padding: 0px 5px;
+        font-size: 0.8rem;
+    }
+    .search {
+        padding-right: 20px;
+    }
+    .searchbar {
+        width: 10rem;
+    }
+    .user {
+        display: none;
+    }
+    .user-img {
+        margin-right: 0px;
+        width: 30px;
+        height: 30px;
+        border-radius: 60px;
+    }
+}
